@@ -7,4 +7,4 @@ for symb in punctuation:
   text = text.replace(symb, '')
 
 words = text.split()
-print(words)
+num_words = len(set(words))
